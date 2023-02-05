@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7626CFD298FF9C6000CA899 /* CapacitorCurveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7626CFC298FF9C6000CA899 /* CapacitorCurveApp.swift */; };
+		B7626CFF298FF9C6000CA899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7626CFE298FF9C6000CA899 /* ContentView.swift */; };
+		B7626D01298FF9C9000CA899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7626D00298FF9C9000CA899 /* Assets.xcassets */; };
+		B7626D05298FF9C9000CA899 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7626D04298FF9C9000CA899 /* Preview Assets.xcassets */; };
+		B7626D0F298FF9C9000CA899 /* CapacitorCurveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7626D0E298FF9C9000CA899 /* CapacitorCurveTests.swift */; };
+		B7626D19298FF9C9000CA899 /* CapacitorCurveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7626D18298FF9C9000CA899 /* CapacitorCurveUITests.swift */; };
+		B7626D1B298FF9C9000CA899 /* CapacitorCurveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7626D1A298FF9C9000CA899 /* CapacitorCurveUITestsLaunchTests.swift */; };
+		B7626D2D299000C2000CA899 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7626D28298FFFF7000CA899 /* Charts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7626D0B298FF9C9000CA899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7626CF1298FF9C6000CA899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7626CF8298FF9C6000CA899;
+			remoteInfo = CapacitorCurve;
+		};
+		B7626D15298FF9C9000CA899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7626CF1298FF9C6000CA899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7626CF8298FF9C6000CA899;
+			remoteInfo = CapacitorCurve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7626CF9298FF9C6000CA899 /* CapacitorCurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapacitorCurve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7626CFC298FF9C6000CA899 /* CapacitorCurveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitorCurveApp.swift; sourceTree = "<group>"; };
+		B7626CFE298FF9C6000CA899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7626D00298FF9C9000CA899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7626D02298FF9C9000CA899 /* CapacitorCurve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CapacitorCurve.entitlements; sourceTree = "<group>"; };
+		B7626D04298FF9C9000CA899 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7626D0A298FF9C9000CA899 /* CapacitorCurveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapacitorCurveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7626D0E298FF9C9000CA899 /* CapacitorCurveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitorCurveTests.swift; sourceTree = "<group>"; };
+		B7626D14298FF9C9000CA899 /* CapacitorCurveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapacitorCurveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7626D18298FF9C9000CA899 /* CapacitorCurveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitorCurveUITests.swift; sourceTree = "<group>"; };
+		B7626D1A298FF9C9000CA899 /* CapacitorCurveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitorCurveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7626D28298FFFF7000CA899 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/Charts.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7626CF6298FF9C6000CA899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7626D2D299000C2000CA899 /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7626D07298FF9C9000CA899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7626D11298FF9C9000CA899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7626CF0298FF9C6000CA899 = {
+			isa = PBXGroup;
+			children = (
+				B7626CFB298FF9C6000CA899 /* CapacitorCurve */,
+				B7626D0D298FF9C9000CA899 /* CapacitorCurveTests */,
+				B7626D17298FF9C9000CA899 /* CapacitorCurveUITests */,
+				B7626CFA298FF9C6000CA899 /* Products */,
+				B7626D27298FFFF7000CA899 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7626CFA298FF9C6000CA899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7626CF9298FF9C6000CA899 /* CapacitorCurve.app */,
+				B7626D0A298FF9C9000CA899 /* CapacitorCurveTests.xctest */,
+				B7626D14298FF9C9000CA899 /* CapacitorCurveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7626CFB298FF9C6000CA899 /* CapacitorCurve */ = {
+			isa = PBXGroup;
+			children = (
+				B7626CFC298FF9C6000CA899 /* CapacitorCurveApp.swift */,
+				B7626CFE298FF9C6000CA899 /* ContentView.swift */,
+				B7626D00298FF9C9000CA899 /* Assets.xcassets */,
+				B7626D02298FF9C9000CA899 /* CapacitorCurve.entitlements */,
+				B7626D03298FF9C9000CA899 /* Preview Content */,
+			);
+			path = CapacitorCurve;
+			sourceTree = "<group>";
+		};
+		B7626D03298FF9C9000CA899 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7626D04298FF9C9000CA899 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7626D0D298FF9C9000CA899 /* CapacitorCurveTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7626D0E298FF9C9000CA899 /* CapacitorCurveTests.swift */,
+			);
+			path = CapacitorCurveTests;
+			sourceTree = "<group>";
+		};
+		B7626D17298FF9C9000CA899 /* CapacitorCurveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7626D18298FF9C9000CA899 /* CapacitorCurveUITests.swift */,
+				B7626D1A298FF9C9000CA899 /* CapacitorCurveUITestsLaunchTests.swift */,
+			);
+			path = CapacitorCurveUITests;
+			sourceTree = "<group>";
+		};
+		B7626D27298FFFF7000CA899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7626D28298FFFF7000CA899 /* Charts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7626CF8298FF9C6000CA899 /* CapacitorCurve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7626D1E298FF9C9000CA899 /* Build configuration list for PBXNativeTarget "CapacitorCurve" */;
+			buildPhases = (
+				B7626CF5298FF9C6000CA899 /* Sources */,
+				B7626CF6298FF9C6000CA899 /* Frameworks */,
+				B7626CF7298FF9C6000CA899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapacitorCurve;
+			productName = CapacitorCurve;
+			productReference = B7626CF9298FF9C6000CA899 /* CapacitorCurve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7626D09298FF9C9000CA899 /* CapacitorCurveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7626D21298FF9C9000CA899 /* Build configuration list for PBXNativeTarget "CapacitorCurveTests" */;
+			buildPhases = (
+				B7626D06298FF9C9000CA899 /* Sources */,
+				B7626D07298FF9C9000CA899 /* Frameworks */,
+				B7626D08298FF9C9000CA899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7626D0C298FF9C9000CA899 /* PBXTargetDependency */,
+			);
+			name = CapacitorCurveTests;
+			productName = CapacitorCurveTests;
+			productReference = B7626D0A298FF9C9000CA899 /* CapacitorCurveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7626D13298FF9C9000CA899 /* CapacitorCurveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7626D24298FF9C9000CA899 /* Build configuration list for PBXNativeTarget "CapacitorCurveUITests" */;
+			buildPhases = (
+				B7626D10298FF9C9000CA899 /* Sources */,
+				B7626D11298FF9C9000CA899 /* Frameworks */,
+				B7626D12298FF9C9000CA899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7626D16298FF9C9000CA899 /* PBXTargetDependency */,
+			);
+			name = CapacitorCurveUITests;
+			productName = CapacitorCurveUITests;
+			productReference = B7626D14298FF9C9000CA899 /* CapacitorCurveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7626CF1298FF9C6000CA899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B7626CF8298FF9C6000CA899 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B7626D09298FF9C9000CA899 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B7626CF8298FF9C6000CA899;
+					};
+					B7626D13298FF9C9000CA899 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B7626CF8298FF9C6000CA899;
+					};
+				};
+			};
+			buildConfigurationList = B7626CF4298FF9C6000CA899 /* Build configuration list for PBXProject "CapacitorCurve" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7626CF0298FF9C6000CA899;
+			productRefGroup = B7626CFA298FF9C6000CA899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7626CF8298FF9C6000CA899 /* CapacitorCurve */,
+				B7626D09298FF9C9000CA899 /* CapacitorCurveTests */,
+				B7626D13298FF9C9000CA899 /* CapacitorCurveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7626CF7298FF9C6000CA899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7626D05298FF9C9000CA899 /* Preview Assets.xcassets in Resources */,
+				B7626D01298FF9C9000CA899 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7626D08298FF9C9000CA899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7626D12298FF9C9000CA899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7626CF5298FF9C6000CA899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7626CFF298FF9C6000CA899 /* ContentView.swift in Sources */,
+				B7626CFD298FF9C6000CA899 /* CapacitorCurveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7626D06298FF9C9000CA899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7626D0F298FF9C9000CA899 /* CapacitorCurveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7626D10298FF9C9000CA899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7626D19298FF9C9000CA899 /* CapacitorCurveUITests.swift in Sources */,
+				B7626D1B298FF9C9000CA899 /* CapacitorCurveUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7626D0C298FF9C9000CA899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7626CF8298FF9C6000CA899 /* CapacitorCurve */;
+			targetProxy = B7626D0B298FF9C9000CA899 /* PBXContainerItemProxy */;
+		};
+		B7626D16298FF9C9000CA899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7626CF8298FF9C6000CA899 /* CapacitorCurve */;
+			targetProxy = B7626D15298FF9C9000CA899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7626D1C298FF9C9000CA899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7626D1D298FF9C9000CA899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B7626D1F298FF9C9000CA899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CapacitorCurve/CapacitorCurve.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapacitorCurve/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CapacitorCurve;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "-.1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7626D20298FF9C9000CA899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CapacitorCurve/CapacitorCurve.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapacitorCurve/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CapacitorCurve;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "-.1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7626D22298FF9C9000CA899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CapacitorCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapacitorCurve.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapacitorCurve";
+			};
+			name = Debug;
+		};
+		B7626D23298FF9C9000CA899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CapacitorCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapacitorCurve.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapacitorCurve";
+			};
+			name = Release;
+		};
+		B7626D25298FF9C9000CA899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CapacitorCurveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapacitorCurve;
+			};
+			name = Debug;
+		};
+		B7626D26298FF9C9000CA899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CapacitorCurveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapacitorCurve;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7626CF4298FF9C6000CA899 /* Build configuration list for PBXProject "CapacitorCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7626D1C298FF9C9000CA899 /* Debug */,
+				B7626D1D298FF9C9000CA899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7626D1E298FF9C9000CA899 /* Build configuration list for PBXNativeTarget "CapacitorCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7626D1F298FF9C9000CA899 /* Debug */,
+				B7626D20298FF9C9000CA899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7626D21298FF9C9000CA899 /* Build configuration list for PBXNativeTarget "CapacitorCurveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7626D22298FF9C9000CA899 /* Debug */,
+				B7626D23298FF9C9000CA899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7626D24298FF9C9000CA899 /* Build configuration list for PBXNativeTarget "CapacitorCurveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7626D25298FF9C9000CA899 /* Debug */,
+				B7626D26298FF9C9000CA899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7626CF1298FF9C6000CA899 /* Project object */;
+}

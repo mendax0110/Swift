@@ -8,9 +8,12 @@
 import SwiftUI
 
 @main
-struct CapacitorCurveApp: App {
-    var body: some Scene {
-        WindowGroup {
+struct CapacitorCurveApp: App
+{
+    var body: some Scene
+    {
+        WindowGroup
+        {
             ContentView()
         }
     }

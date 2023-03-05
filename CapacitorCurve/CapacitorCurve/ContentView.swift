@@ -6,25 +6,31 @@
 //
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View
+{
     @State var capacitance: String = ""
     @State var voltage: String = ""
     @State var time: String = ""
     @State private var showError = false
     
-    var body: some View {
-        VStack {
-            HStack {
+    var body: some View
+    {
+        VStack
+        {
+            HStack
+            {
                 Text("Capacitance (F):")
                 TextField("Enter capacitance", text: $capacitance)
             }
             
-            HStack {
+            HStack
+            {
                 Text("Voltage (V):")
                 TextField("Enter voltage", text: $voltage)
             }
             
-            HStack {
+            HStack
+            {
                 Text("Time (s):")
                 TextField("Enter time", text: $time)
             }
@@ -32,21 +38,25 @@ struct ContentView: View {
             curveView
                 .frame(height: 300)
             
-            Button(action: {
-                if let capacitance = Double(self.capacitance), let voltage = Double(self.voltage), let time = Double(self.time) {
+            Button(action:
+            {
+                if let capacitance = Double(self.capacitance), let voltage = Double(self.voltage), let time = Double(self.time)
+                {
                     let charge = capacitance * voltage
                     let discharge = charge * exp(-time / (capacitance * voltage))
                     
                     self.curveView.discharge = discharge
                     self.curveView.time = time
-                } else {
+                } else
+                {
                     // Show an error message to the user
                     self.showError = true
                 }
             }) {
                 Text("Plot Curve")
             }
-            .alert(isPresented: $showError) {
+            .alert(isPresented: $showError)
+            {
                 Alert(title: Text("Error"), message: Text("Invalid input values"), dismissButton: .default(Text("OK")))
             }
         }
@@ -57,11 +67,13 @@ struct ContentView: View {
 
 }
 
-struct CurveView: View {
+struct CurveView: View
+{
     @State var discharge: Double = 0
     @State var time: Double = 0
     
-    var body: some View {
+    var body: some View
+    {
         GeometryReader { geometry in
             Path { path in
                 let width = geometry.size.width
